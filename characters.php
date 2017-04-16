@@ -57,9 +57,6 @@ echo '
 <div class="you">
 О себе:
 </div>
-<div class="bl2">
-</div>
-
 <div class="youyou">'
 .$row['task'].
 '</div>
