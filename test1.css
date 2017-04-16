@@ -213,14 +213,14 @@ background-color: grey;
 }
 .main2 {
 	float: left;
-padding-top: 80px;
-font-size: 20pt;
-text-align: justify;
-line-height: 1.2;
-padding-left: 30px;
-padding-right: 30px;
-min-height: 350px;
-background-color: #F2F2F2;
+	padding-top: 80px;
+	font-size: 20pt;
+	text-align: justify;
+	line-height: 1.2;
+	padding-left: 30px;
+	padding-right: 30px;
+	min-height: 350px;
+	background-color: #F2F2F2;
 }
 .sponsor{
 	width: 100%;
