@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Test</title>
+<title>о нас</title>
 <link rel="stylesheet" type="text/css" href="test1.css">
 <link rel="icon" href="logo/icon.png">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">></script>
@@ -57,11 +57,13 @@ echo '
 <div class="you">
 О себе:
 </div>
+<div class="bl2">
+</div>
+
 <div class="youyou">'
 .$row['task'].
 '</div>
-<div class="bl2">
-</div>
+
 <div class="work">
 Название работы:
 </div>
