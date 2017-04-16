@@ -43,48 +43,58 @@ while($row = mysqli_fetch_array($taskto)) {
 	if($ost == 0){
 		echo "<tr>";
 	}
-	
+
 	$row['task'] = wordwrap($row['task'], 50, '<div class="bl2"></div>');
 	$row['nametask'] = wordwrap($row['nametask'], 50, '<div class="bl2"></div>');
-	
+
 echo '
 <td>
-<div class="guy">
-<div class="avatar">
-<img src="'. $row['photo'] .'">
-</div>
-<div class="info">
-<div class="name">'
-.$row['name'].
-'</div>
-<div class="bl1">
-</div>
-<div class="infoguy">
-<div class="you">
-О себе:
-</div>
-<div class="youyou">'
-.$row['task'].
-'</div>
-<div class="bl2">
-</div>
-<div class="work">
-Название работы:
-</div>
-<div class="workyou">'
-.$row['nametask'].
-'</div>
-<div class="bl2">
-</div>
-<div class="mailyou">'
-.$row['contact'].
-'</div>
-<img src="mail.png">
-<div class="bl2mail">
-</div>
-</div>
-</div>
-</div>
+
+	<div class="guy">
+
+		<div class="avatar">
+			<img src="'. $row['photo'] .'">
+		</div>
+
+		<div class="info">
+			<div class="name">'
+				.$row['name'].
+			'</div>
+		</div>
+
+		<div class="bl1">
+		</div>
+
+		<div class="infoguy">
+			<div class="you">
+			О себе:
+			</div>
+			<div class="youyou">'
+				.$row['task'].
+			'</div>
+		</div>
+
+		<div class="bl2">
+		</div>
+
+		<div class="work">
+			Название работы:
+		</div>
+		<div class="workyou">'
+			.$row['nametask'].
+		'</div>
+
+		<div class="bl2">
+		</div>
+
+		<div class="bl22">
+		</div>
+
+		<img src="mail.png">
+		<div class="bl2mail">
+		</div>
+
+	</div>
 </td>';
 
 $numb+= 1;
