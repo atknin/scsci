@@ -35,13 +35,12 @@ SCSCI.RU
 <table>
 <tbody>
 <tr>
-<td>&#9679 Календарь &#9679;</td>
-<td>Лента &#9679;</td>
-<td><a href="characters.php">О нас</a> &#9679;</td>
-<td>Наука &#9679;</td>
-<td>Статьи &#9679;</td>
-<td>По вопросам сотрудничества &#9679;</td>
-<td>Принять участие &#9679;</td>
+<td>&#9679 календарь &#9679;</td>
+<td>лента &#9679;</td>
+<td><a href="characters.php">о нас</a> &#9679;</td>
+<td>наука &#9679;</td>
+<td>статьи &#9679;</td>
+<td>принять участие &#9679;</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +66,7 @@ SCSCI.RU
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <div>
-	  
+
 	  </div>
       <div class="carousel-caption">
 	  <div class="bootimg">
@@ -82,29 +81,29 @@ SCSCI.RU
 в Центр с 1 по 24 июля для участия в Проектной смене.
 Отбор участников будет происходить по олимпиадным,
 конкурсным, грантовым и иным достижениям. Работы на конкурс принимаются по 13 направлениям, с
-полным перечнем которых можно ознакомиться здесь. 
+полным перечнем которых можно ознакомиться здесь.
 <a href="">читать полностью ⟶</a>
 </div>
       </div>
     </div>
     <div class="item">
       <div>
-	  
+
 	  </div>
       <div class="carousel-caption">
-	  Какой то текст
+	  -
       </div>
     </div>
-	
+
 	<div class="item">
       <div>
-	  
+
 	  </div>
       <div class="carousel-caption">
-	  Какой то текст
+	  -
       </div>
     </div>
-    
+
   </div>
 
   <!-- Controls -->
