@@ -62,7 +62,7 @@ $numchar++;
 <td style="padding-right: 55px;">
 <img src="logo/mail.png">
 </td>
-<td>info@scscy.ru</td>
+<td>info@scsci.ru</td>
 </tr>
 </tbody>
 </table>
