@@ -424,8 +424,8 @@ text-align: center;
 }
 .video{
 width: 100%;
--webkit-filter: blur(4px);
-filter: blur(4px);
+/*-webkit-filter: blur(4px);
+filter: blur(4px);*/
 }
 .onvideo {
 	position: absolute;
@@ -438,17 +438,17 @@ filter: blur(4px);
 	left: 14%;
 }
 .maintext1{
-	color: black;
+	color: white;
 	font-size: 50pt;
 }
 .maintext2 {
 	padding-top: 40px;
-	color: black;
+	color: white;
 	font-size: 19pt;
 }
 .maintext3{
 	padding-top: 16px;
-	color: black;
+	color: white;
 	font-size: 16pt;
 }
 .small{
