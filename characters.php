@@ -76,8 +76,9 @@ echo '
 '</div>
 <div class="bl2">
 </div>
-<div class="bl22">
-</div>
+<div class="mailyou">'
+.$row['contact'].
+'</div>
 <img src="mail.png">
 <div class="bl2mail">
 </div>

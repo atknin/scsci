@@ -1,0 +1,194 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Test</title>
+<link rel="stylesheet" type="text/css" href="test1.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">></script>
+</head>
+<body>
+<?php
+
+require "connect.php";
+
+mysqli_query($link, "SET NAMES utf8");
+
+$task = 'select * from comand';
+
+$photo = array();
+
+$taskto = mysqli_query($link, $task);
+
+?>
+<div class="characters">
+<div class="header">
+<div class="text">
+текст текст текст текст<br>
+текст текст текст текст<br>
+текст текст текст текст<br>
+текст текст текст текст<br>
+текст текст текст текст<br>
+</div>
+<div class="video">
+<div style="text-align: center; color: white; font-size: 26pt; margin-top: 80px;";>
+ВИДЕО
+</div>
+</div>
+</div>
+<div class="maincontent">
+<table>
+<tbody>
+<tr>
+<td>
+<div class="guy">
+<div class="avatar">
+<img src="avatar.png">
+</div>
+<div class="info">
+<div class="name">
+Фамилия Имя
+</div>
+<div class="bl1">
+</div>
+<div class="infoguy">
+<div class="you">
+о себе
+</div>
+<div>
+</div>
+<div class="bl2">
+</div>
+<div class="work">
+название работы
+</div>
+<div class="bl2">
+</div>
+<div class="bl22">
+</div>
+<img src="mail.png">
+<div class="bl2mail">
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="guy">
+<div class="avatar">
+<img src="avatar.png">
+</div>
+<div class="info">
+<div class="name">
+Фамилия Имя
+</div>
+<div class="bl1">
+</div>
+<div class="infoguy">
+<div class="you">
+о себе
+</div>
+<div>
+</div>
+<div class="bl2">
+</div>
+<div class="work">
+название работы
+</div>
+<div class="bl2">
+</div>
+<div class="bl22">
+</div>
+<img src="mail.png">
+<div class="bl2mail">
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="guy">
+<div class="avatar">
+<img src="avatar.png">
+</div>
+<div class="info">
+<div class="name">
+Фамилия Имя
+</div>
+<div class="bl1">
+</div>
+<div class="infoguy">
+<div class="you">
+о себе
+</div>
+<div>
+Программист люблю писать
+</div>
+<div class="bl2">
+</div>
+<div class="work">
+название работы
+</div>
+<div class="bl2">
+</div>
+<div class="bl22">
+</div>
+<img src="mail.png">
+<div class="bl2mail">
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="addchar">
+<table>
+<tbody>
+<tr>
+<td>
+<button>Добавить участника</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="main4">
+<div class="text">
+Ты готов?<br>
+ДАВАЙ С НАМИ
+</div>
+<div class="but">
+<button><img src="button2.png"></button>
+</div>
+</div>
+<div class="main5">
+<div class="our">
+НАС 30
+</div>
+<div>
+<table>
+<tbody>
+<tr>
+<td>Наш лого</td>
+<td>Лого НИЦКИ</td>
+<td>лого ФНИЦКи</td>
+<td>Школа №</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cont">
+<div class="vk">
+<img src="vklogo.png">
+</div>
+<div class="mail">
+<a href="email@x-rays.world">email@x-rays.world</a>
+</div>
+</div>
+</div>
+</body>
+</html>

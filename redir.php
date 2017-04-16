@@ -13,31 +13,35 @@ require "connection.php";
 $name = $_REQUEST['name'];
 $task = $_REQUEST['task'];
 $nametask = $_REQUEST['taskname'];
+$contact = $_REQUEST['contact'];
 $photo = $_REQUEST['photo'];
 
-$uploaddir = '/i';
-$uploadfile = $uploaddir . basename($_FILES['photo']['name']);
+$uploaddir = 'images/';
+$uploadfile = $uploaddir . $_FILES['photo']['name'];
 
-echo '<pre>';
-if (move_uploaded_file($_FILES['photo']['tmp_name'], $uploadfile)) {
-    echo "Файл корректен и был успешно загружен.\n";
-} else {
-    echo "Возможная атака с помощью файловой загрузки!\n";
-}
+echo $uploadfile;
+
+if(is_uploaded_file($_FILES["photo"]["tmp_name"]))
+   {
+	 echo "okey";
+
+     move_uploaded_file($_FILES["photo"]["tmp_name"], $uploaddir . $_FILES["photo"]["name"]);
+	 
+	 echo "okey2 <br>";
+   } else {
+      echo("Ошибка загрузки файла");
+   }
 
 echo 'Некоторая отладочная информация:';
 print_r($_FILES);
 
-print "</pre>";
-
-
-$insert_sql = "INSERT INTO comand (photo, name, task, nametask)" .
-        "VALUES ('{$photo}','{$name}','{$task}','{$nametask}');";
+$insert_sql = "INSERT INTO comand (photo, name, task, nametask, contact)" .
+        "VALUES ('{$uploadfile}','{$name}','{$task}','{$nametask}','{$contact}');";
 		
 $result = mysqli_query($link, $insert_sql)
     or die(mysql_error());
 	
-	
+	header('Location: http://scsci.ru/characters.php');
 	
 ?>
 </body>
