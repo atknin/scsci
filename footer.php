@@ -39,7 +39,9 @@ $numchar++;
 <div>
 <h3>ПОДПИСАТЬСЯ</h3>
 <div class="img">
-<img class="vk" src="logo/vk.png">
+  
+  <a href="https://vk.com/scsci"> <img class="vk" src="logo/vk.png"></a>
+
 
 <img class="youtube" src="logo/youtube.png">
 
