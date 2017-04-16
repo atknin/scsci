@@ -70,10 +70,12 @@ echo '
 '</div>
 <div class="bl2">
 </div>
+
 <div class="mailyou">'
 .$row['contact'].
 '</div>
 <img src="mail.png">
+<a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">Send Mail</a>
 <div class="bl2mail">
 </div>
 </div>
