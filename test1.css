@@ -424,6 +424,8 @@ text-align: center;
 }
 .video{
 width: 100%;
+-webkit-filter: blur(4px);
+filter: blur(4px);
 }
 .onvideo {
 	position: absolute;
