@@ -49,6 +49,7 @@ while($row = mysqli_fetch_array($taskto)) {
 
 echo '
 <td>
+
 	<div class="guy">
 
 		<div class="avatar">
@@ -94,7 +95,6 @@ echo '
 		</div>
 
 	</div>
-	
 </td>';
 
 $numb+= 1;
