@@ -436,21 +436,18 @@ width: 100%;
 	left: 14%;
 }
 .maintext1{
-	color: white;
+	color: black;
 	font-size: 50pt;
-	-webkit-text-stroke: 1px black;
 }
 .maintext2 {
 	padding-top: 40px;
-	color: white;
+	color: black;
 	font-size: 19pt;
-	-webkit-text-stroke: 1px black;
 }
 .maintext3{
 	padding-top: 16px;
-	color: white;
+	color: black;
 	font-size: 16pt;
-	-webkit-text-stroke: 1px black;
 }
 .small{
 	margin-top: 3px;
