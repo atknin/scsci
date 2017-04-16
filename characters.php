@@ -74,8 +74,9 @@ echo '
 <div class="mailyou">'
 .$row['contact'].
 '</div>
-<img src="mail.png">
-<a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">Send Mail</a>
+<a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">
+	<img src="mail.png">
+</a>
 <div class="bl2mail">
 </div>
 </div>
