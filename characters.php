@@ -94,6 +94,7 @@ echo '
 		</div>
 
 	</div>
+	
 </td>';
 
 $numb+= 1;
