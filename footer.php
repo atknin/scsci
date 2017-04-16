@@ -52,12 +52,12 @@ $numchar++;
 <h3>СВЯЗАТЬСЯ С НАМИ</h3>
 <table>
 <tbody>
-<tr>
+<!-- <tr>
 <td style="padding-right: 55px;">
 <img src="logo/tele.png">
 </td>
 <td>+7(915)132-24-37</td>
-</tr>
+</tr> -->
 <tr>
 <td style="padding-right: 55px;">
 <img src="logo/mail.png">
