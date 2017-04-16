@@ -1,6 +1,2 @@
-<?php
-// Use in the "Post-Receive URLs" section of your GitHub repo.
-if ( $_POST['payload'] ) {
-  shell_exec( 'cd ~scsciru1/www/ && git pull' );
-}
-?>hi
+<?php `cd ~scsciru1/www/ && git pull`; ?>
+Сайт обновлен
