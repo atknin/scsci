@@ -15,11 +15,7 @@ $taskto = mysqli_query($link, $tasktosql);
 <div class="characters">
 <div class="header">
 <div class="text">
-текст текст текст текст<br>
-текст текст текст текст<br>
-текст текст текст текст<br>
-текст текст текст текст<br>
-текст текст текст текст<br>
+	На видео справа наша лаборатория, мы ведем съемку в режиме реального времени
 </div>
 <div class="video">
 <div style="text-align: center; color: white; font-size: 26pt; margin-top: 80px;";>
