@@ -60,7 +60,8 @@ echo '
 <div class="youyou">'
 .$row['task'].
 '</div>
-
+<div class="bl2">
+</div>
 <div class="work">
 Название работы:
 </div>
