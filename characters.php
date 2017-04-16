@@ -8,13 +8,9 @@
 </head>
 <body>
 <?php
-
 require "connection.php";
-
 $tasktosql = 'select * from comand';
-
 $taskto = mysqli_query($link, $tasktosql);
-
 ?>
 <div class="characters">
 <div class="header">
@@ -35,9 +31,7 @@ $taskto = mysqli_query($link, $tasktosql);
 <table>
 <tbody>
 <?php
-
 $numb = 0;
-
 while($row = mysqli_fetch_array($taskto)) {
 	$ost = $numb % 2;
 	if($ost == 0){
@@ -76,8 +70,9 @@ echo '
 '</div>
 <div class="bl2">
 </div>
-<div class="bl22">
-</div>
+<div class="mailyou">'
+.$row['contact'].
+'</div>
 <img src="mail.png">
 <div class="bl2mail">
 </div>
@@ -85,14 +80,12 @@ echo '
 </div>
 </div>
 </td>';
-
 $numb+= 1;
 $ost = $numb % 2;
 if($ost == 0){
 echo "</tr>";
 }
 }
-
 ?>
 </tbody>
 </table>
