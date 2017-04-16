@@ -23,7 +23,7 @@ SCSCI.RU
 <div class="small">
 </div>
 <div class="maintext3">
-Сайт находится на стадии тестирования_1
+Сайт находится на стадии тестирования_1asdsd
 </div>
 </div>
 <div class="onvideobut">
