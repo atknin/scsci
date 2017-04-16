@@ -18,12 +18,12 @@
 SCSCI.RU
 </div>
 <div class="maintext2">
-НИЦ КУРЧАТОВСКИЙ ИНСТИТУТ
+Наблюдай явления с нами
 </div>
 <div class="small">
 </div>
 <div class="maintext3">
-Наблюдай явления с нами
+Сайт находится на стадии тестирования
 </div>
 </div>
 <div class="onvideobut">
