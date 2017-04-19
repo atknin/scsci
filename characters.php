@@ -67,8 +67,6 @@ echo '
 <div class="workyou">'
 .$row['nametask'].
 '</div>
-</div>
-
 <div class="mailyou">'
 .$row['contact'].
 '</div>
