@@ -38,7 +38,7 @@ body{
 	margin-top: 50px;
 	padding-left: 8%;
 }
-.maincontent table{
+.maincontent table{youyou
 	margin: auto;
 }
 .maincontent table td{
@@ -83,7 +83,8 @@ body{
 }
 .youyou{
 	color: black;
-	font-size: 15pt;
+	font-size: 12pt;
+	text-align: justify;
 }
 .work{
 	margin-left: 10px;
@@ -91,7 +92,8 @@ body{
 }
 .workyou{
 	color: black;
-	font-size: 15pt;
+	font-size: 12pt;
+	text-align: justify;
 }
 .bl2{
 	background-color: grey;
