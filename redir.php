@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Test</title>
-<link rel="stylesheet" type="text/css" href="test1.css">
+<link rel="stylesheet" type="text/css" href="css/test1.css">
 </head>
 <body>
 <?php

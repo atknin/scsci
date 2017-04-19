@@ -2,16 +2,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Школа Науки</title>
-<link rel="stylesheet" type="text/css" href="test1.css">
+<link rel="stylesheet" type="text/css" href="css/test1.css">
 <link rel="icon" href="logo/icon.png">
-<script src="jquery-3.2.0.min.js"></script>
-<script src="boot/bootstrap.min.js"></script>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="css/bootstrap 3/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="main1">
 <div>
 <video class="video" loop autoplay >
-<source src="test12.mp4">
+<source src="video/test12.mp4">
 </video>
 <div class="onvideo">
 <div class="maintext1">
@@ -69,7 +69,7 @@ SCSCI.RU
 	  </div>
       <div class="carousel-caption">
 	  <div class="bootimg">
-	  <img src="src.jpg">
+	  <img src="images/src.jpg">
 	  </div>
 	  <div class="boottext">
         Всероссийский конкурс  проектов - это
