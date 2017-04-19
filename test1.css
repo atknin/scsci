@@ -544,3 +544,17 @@ filter: blur(4px);*/
 	background-color: #C61C1C;
 	border: #C61C1C solid 1px;
 }
+.link-home{
+		margin-left: 30px;
+		font-family: 'stand';
+		color: white;
+		font-size: 15pt;
+		text-decoration: none;
+		cursor: pointer;
+		transition: all 0.25s ease-in;
+}
+.link-home:hover{
+	color: black;
+	font-weight: bold;
+
+}

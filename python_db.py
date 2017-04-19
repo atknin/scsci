@@ -5,7 +5,9 @@ import pymysql
 connection = pymysql.connect(host='localhost',user='scsciru1_school',password='Myagkov_2',db='scsciru1_school',charset='utf8mb4',cursorclass=pymysql.cursors.DictCursor)
 sql="SELECT 'photo' FROM 'comand' WHERE 'contact'=%s"
 cursor.execute(sql, ('marshallstudio82@gmail.com',))
-connection.cursor("SELECT 'photo' FROM 'comand'" )
+connection.cursor()("SELECT 'photo' FROM 'comand'" )
+mysql --host=localhost --user=scsciru1_school --password=Myagkov_2 scsciru1_school
+DELETE FROM comand WHERE contact = 'marshallstudio82@gmail.com'
 try:
     with connection.cursor() as cursor:
         # Create a new record
