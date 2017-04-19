@@ -75,7 +75,7 @@ echo '
 .$row['contact'].
 '</div>
 <a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">
-	<img src="mail.png">
+	<img src="logo/mail_sent">
 </a>
 <div class="bl2mail">
 </div>
