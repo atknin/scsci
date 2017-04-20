@@ -42,7 +42,7 @@ while($row = mysqli_fetch_array($taskto)) {
 	$row['nametask'] = wordwrap($row['nametask'], 150);
 
 echo '
-	<div class="guy">
+	<div class="guy col-md-5 col-lg-5">
 		<div class="avatar">
 			<img src="'. $row['photo'] .'">
 		</div>
