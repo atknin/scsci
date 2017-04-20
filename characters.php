@@ -65,25 +65,26 @@ echo '
 				<div class="youyou">'
 					.$row['task'].
 				'</div>
-			</div>
 
-			<div class="work">
-				Название работы:
-			</div>
+				<div class="work">
+					Название работы:
+				</div>
 		
-			<div class="workyou">'
-				.$row['nametask'].
-			'</div>
+				<div class="workyou">'
+					.$row['nametask'].
+				'</div>
 		
-			<div class="mailyou">'
-				.$row['contact'].
-			'</div>
+				<div class="mailyou">'
+					.$row['contact'].
+				'</div>
 
-			<a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">
-				<img src="logo/mail_sent.png">
-			</a>
+				<a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">
+					<img src="logo/mail_sent.png">
+				</a>
 	
-			<div class="bl2mail">
+				<div class="bl2mail">
+				</div>
+
 			</div>
 		</div>
 	</div>
