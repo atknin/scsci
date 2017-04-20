@@ -48,6 +48,7 @@ body{
 .guy{
 	margin-bottom: 60px;
 	float: left;
+	width: 45%
 }
 .avatar{
 	float: left;
@@ -85,7 +86,8 @@ body{
 	color: black;
 	font-size: 12pt;
 	text-align: justify;
-	height: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .work{
 	margin-left: 10px;
@@ -95,7 +97,8 @@ body{
 	color: black;
 	font-size: 12pt;
 	text-align: justify;
-	height: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .bl2{
 	background-color: grey;

@@ -3,6 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>о нас</title>
 <link rel="stylesheet" type="text/css" href="css/test1.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap 3/bootstrap.min.css">
 <link rel="icon" href="logo/icon.png">
 <script src="js/jquery-3.2.0.min.js"></script>
 </head>
