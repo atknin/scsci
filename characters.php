@@ -30,70 +30,70 @@ $taskto = mysqli_query($link, $tasktosql);
 </div>
 
 <div class="row">
-	<?php
-	$numb = 0;
-	while($row = mysqli_fetch_array($taskto)) {
-		$ost = $numb % 2;
-		if($ost == 0){
-			echo "<tr>";
-		}
-
-		$row['task'] = wordwrap($row['task'], 150);
-		$row['nametask'] = wordwrap($row['nametask'], 150);
-
-	echo '
-		<div class="guy col-md-5 col-lg-5">
-			<div class="avatar">
-				<img src="'. $row['photo'] .'">
-			</div>
-
-			<div class="info">
-				<div class="name">'
-					.$row['name'].
-				'</div>
-				
-				<div class="bl1">
-				</div>
-				
-				<div class="infoguy">
-
-					<div class="you">
-						О себе:
-					</div>
-
-					<div class="youyou">'
-						.$row['task'].
-					'</div>
-
-					<div class="work">
-						Название работы:
-					</div>
-			
-					<div class="workyou">'
-						.$row['nametask'].
-					'</div>
-			
-					<div class="mailyou">'
-						.$row['contact'].
-					'</div>
-
-					<a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">
-						<img src="logo/mail_sent.png">
-					</a>
-		
-					<div class="bl2mail">
-					</div>
-
-				</div>
-			</div>
-		</div>';
-	$numb+= 1;
+<?php
+$numb = 0;
+while($row = mysqli_fetch_array($taskto)) {
 	$ost = $numb % 2;
 	if($ost == 0){
-	echo;
+		echo "NOPE";
 	}
-	}
-	?>
+
+	$row['task'] = wordwrap($row['task'], 150);
+	$row['nametask'] = wordwrap($row['nametask'], 150);
+
+echo '
+	<div class="guy">
+		<div class="avatar">
+			<img src="'. $row['photo'] .'">
+		</div>
+
+		<div class="info">
+			<div class="name">'
+				.$row['name'].
+			'</div>
+			
+			<div class="bl1">
+			</div>
+			
+			<div class="infoguy">
+
+				<div class="you">
+					О себе:
+				</div>
+
+				<div class="youyou">'
+					.$row['task'].
+				'</div>
+
+				<div class="work">
+					Название работы:
+				</div>
+		
+				<div class="workyou" st>'
+					.$row['nametask'].
+				'</div>
+		
+				<div class="mailyou">'
+					.$row['contact'].
+				'</div>
+
+				<a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">
+					<img src="logo/mail_sent.png">
+				</a>
+	
+				<div class="bl2mail">
+				</div>
+
+			</div>
+		</div>
+	</div>';
+$numb+= 1;
+$ost = $numb % 2;
+if($ost == 0){
+echo "NOPE";
+}
+}
+?>
 </div>
 
 
