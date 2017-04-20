@@ -38,8 +38,8 @@ while($row = mysqli_fetch_array($taskto)) {
 		echo "<tr>";
 	}
 
-	$row['task'] = wordwrap($row['task'], 50, '<div class="bl2"></div>');
-	$row['nametask'] = wordwrap($row['nametask'], 50, '<div class="bl2"></div>');
+	$row['task'] = wordwrap($row['task'], 150);
+	$row['nametask'] = wordwrap($row['nametask'], 150);
 
 echo '
 <td>
