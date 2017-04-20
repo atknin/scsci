@@ -43,41 +43,50 @@ while($row = mysqli_fetch_array($taskto)) {
 
 echo '
 <td>
-<div class="guy">
-<div class="avatar">
-<img src="'. $row['photo'] .'">
-</div>
-<div class="info">
-<div class="name">'
-.$row['name'].
-'</div>
-<div class="bl1">
-</div>
-<div class="infoguy">
-<div class="you">
-О себе:
-</div>
-<div class="youyou">'
-.$row['task'].
-'</div>
-</div>
-<div class="work">
-Название работы:
-</div>
-<div class="workyou">'
-.$row['nametask'].
-'</div>
-<div class="mailyou">'
-.$row['contact'].
-'</div>
-<a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">
-	<img src="logo/mail_sent.png">
-</a>
-<div class="bl2mail">
-</div>
-</div>
-</div>
-</div>
+	<div class="guy">
+		<div class="avatar">
+			<img src="'. $row['photo'] .'">
+		</div>
+
+		<div class="info">
+			<div class="name">'
+				.$row['name'].
+			'</div>
+			
+			<div class="bl1">
+			</div>
+			
+			<div class="infoguy">
+
+				<div class="you">
+					О себе:
+				</div>
+
+				<div class="youyou">'
+					.$row['task'].
+				'</div>
+			</div>
+
+			<div class="work">
+				Название работы:
+			</div>
+		
+			<div class="workyou">'
+				.$row['nametask'].
+			'</div>
+		
+			<div class="mailyou">'
+				.$row['contact'].
+			'</div>
+
+			<a href="mailto:'.$row['contact'].'?Subject='.$row['name'].'" target="_top">
+				<img src="logo/mail_sent.png">
+			</a>
+	
+			<div class="bl2mail">
+			</div>
+		</div>
+	</div>
 </td>';
 $numb+= 1;
 $ost = $numb % 2;
