@@ -38,17 +38,18 @@ body{
 	margin-top: 50px;
 	padding-left: 8%;
 }
-.maincontent table{youyou
+.maincontent table{
 	margin: auto;
 }
 .maincontent table td{
 	padding-top: 0;
 	vertical-align: top;
+	width: 45%;
 }
 .guy{
 	margin-bottom: 60px;
 	float: left;
-	width: 45%
+	width: 100%
 }
 .avatar{
 	float: left;
